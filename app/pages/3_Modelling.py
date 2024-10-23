@@ -11,19 +11,16 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_curve, 
 import warnings
 import pickle
 
-plotly.offline.init_notebook_mode()
-warnings.filterwarnings("ignore")
+# plotly.offline.init_notebook_mode()
+# warnings.filterwarnings("ignore")
 
-with open("models.pkl", "rb") as file:
+with open("app/models.pkl", "rb") as file:
     # Deserialize and load the object from the file
     models = pickle.load(file)
     
-with open("plots.pkl", "rb") as file:
+with open("app/plots.pkl", "rb") as file:
     # Deserialize and load the object from the file
     plots = pickle.load(file)
-
-plotly.offline.init_notebook_mode()
-warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title = "Modelling", layout = "wide")
 
