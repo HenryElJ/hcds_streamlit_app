@@ -4,5 +4,4 @@ numpy
 matplotlib
 plotly
 dalex
-scikit-learn>=1.5
 warnings
