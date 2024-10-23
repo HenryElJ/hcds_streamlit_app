@@ -64,4 +64,4 @@ virus1.markdown(
 
     - Is the composition of the data suitable for modelling purposes
     ''', unsafe_allow_html = True)
-virus2.image("app/images/images/h1n1.jpeg")
+virus2.image("app/images/h1n1.jpeg")
