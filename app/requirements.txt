@@ -1,8 +1,8 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 plotly
 dalex
-sklearn
+scikit-learn
 warnings
