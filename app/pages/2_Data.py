@@ -9,7 +9,7 @@ import pickle
 
 # plotly.offline.init_notebook_mode()
 
-with open("df.pkl", "rb") as file:
+with open("app/df.pkl", "rb") as file:
     # Deserialize and load the object from the file
     df = pickle.load(file)
 
