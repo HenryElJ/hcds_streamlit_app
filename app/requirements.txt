@@ -4,4 +4,4 @@ numpy
 matplotlib
 plotly
 dalex
-warnings
+scikit-learn
