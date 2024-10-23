@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly
+pickle
+fairness_functions
+dalex
+sklearn
+warnings
