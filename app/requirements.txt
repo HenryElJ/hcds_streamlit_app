@@ -1,8 +1,9 @@
+python==3.12.4
 streamlit
 pandas
 numpy
 matplotlib
 plotly
 dalex
-scikit-learn==1.3.2
+scikit-learn
 warnings
