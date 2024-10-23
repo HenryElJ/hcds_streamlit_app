@@ -7,7 +7,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import pickle
 
-plotly.offline.init_notebook_mode()
+# plotly.offline.init_notebook_mode()
 
 with open("df.pkl", "rb") as file:
     # Deserialize and load the object from the file
