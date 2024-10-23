@@ -6,7 +6,7 @@ st.title(":syringe::microbe: Explainer Dashboard for Predictions of H1N1 and Sea
 
 intro1, intro2 = st.columns([0.25, 0.75], vertical_alignment = "center")
 
-intro1.image("/images/vaccine.jpeg")
+intro1.image("app/images/vaccine.jpeg")
 intro2.markdown(
     '''
     ### **Overview**
@@ -64,4 +64,4 @@ virus1.markdown(
 
     - Is the composition of the data suitable for modelling purposes
     ''', unsafe_allow_html = True)
-virus2.image("/images/h1n1.jpeg")
+virus2.image("app/images/images/h1n1.jpeg")
